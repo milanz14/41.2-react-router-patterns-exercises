@@ -1,8 +1,8 @@
 import "./App.css";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Route } from "react-router-dom";
 import DogsList from "./DogsList";
 
-function App(props) {
+function App() {
     return (
         <div className="App">
             <Route exact path="/dogs">
